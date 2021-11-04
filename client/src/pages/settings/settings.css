@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* 
+font-family: 'Architects Daughter', cursive;
+
+font-family: 'Overpass', sans-serif;
+font-family: 'Andika New Basic', sans-serif;
+ */
+ 
+
+.settings {
+    display: flex;
+}
+
+.settingsTitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.settingsUpdateTitle {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: rgb(204, 190, 148);;
+font-family: 'Andika New Basic', sans-serif;
+}
+
+.settingsDeleteTitle{
+    color:rgb(190, 3, 3);
+    font-style: 10px;
+    cursor: pointer;
+    transition: 1s;
+    font-family: 'Overpass', sans-serif;
+}
+.settingsDeleteTitle:hover {
+background-color: rgb(175, 9, 9);
+color: #f1f1f1;
+}
+
+.settingsForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.settingsPP{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.settingsWrapper{
+    flex: 9;
+    padding: 20px;
+}
+
+.PPicture{
+    width: 150px;
+    height: 220px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.settingsPPIcone {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 25px;
+    background-color: sandybrown;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.settingsForm > label {
+    font-size: 20px;
+    margin-top: 20;
+    font-family: 'Overpass', sans-serif;
+}
+
+.settingsForm > input {
+    color: gray;
+    margin: 5px 0 20px 0;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    font-family: 'Andika New Basic', sans-serif;
+}
+.settingsForm > label {
+    margin-top: 10px;
+}
+
+.settingsSubmit {
+    width: 150px;
+    align-self: center;
+    border: none;
+    border-radius: 10px;
+    color: #333;
+    background-color: rgb(224, 209, 162);
+    font-weight: 600;
+    font-size: 14px; 
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+
+}

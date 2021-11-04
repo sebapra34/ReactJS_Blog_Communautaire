@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* 
+font-family: 'Architects Daughter', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Overpass', sans-serif;
+font-family: 'Andika New Basic', sans-serif; */
+
+.sidebar {
+    flex: 3;
+    margin: 20px;
+    padding-bottom: 30px;
+    background-color: lightgoldenrodyellow;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Andika New Basic', sans-serif;
+}
+
+.sidebarItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ImgAbout {
+    width: 280px;
+    height: 150px;
+}
+
+.sidebarTittle {
+    margin: 10px;
+    padding: 5px;
+    width: 80%;
+    border-top: 1px solid #a7a4a4;
+    border-bottom: 1px solid #a7a4a4;
+    color: #222;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.sidebarItem > img {
+    margin-top: 15px;
+}
+
+.sidebarItem > p {
+    padding: 30px;
+}
+
+.sidebarList {
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.sidebarListItem {
+    display: inline-block;
+    width: 50%;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.sidebarListItem:hover {
+    font-weight: bold;
+}
+
+.sidebarSocial {
+    margin-top: 15px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebarIcone {
+    font-size: 22px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #222;
+}
+
+.sidebarIcone:hover {
+    animation: tourne 1.2s linear;
+    animation-iteration-count: 1;
+}
+
+@keyframes tourne {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.fa-discord {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.fa-discord:hover {
+    font-size: 30px;
+}
+.fa-github:hover {
+    font-size: 30px;
+}
+.fa-instagram:hover {
+    font-size: 30px;
+}

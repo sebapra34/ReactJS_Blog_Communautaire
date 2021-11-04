@@ -1,0 +1,46 @@
+/* .header :not(.headerTitleLrg){
+    background-color: rgba(218, 69, 11, 0.315);
+} */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* 
+font-family: 'Architects Daughter', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Overpass', sans-serif;
+font-family: 'Andika New Basic', sans-serif;
+ */
+
+.header {
+    margin-top: 60px;
+}
+
+.headerTitles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #444;
+}
+
+.headerTitleSml {
+    position: absolute;
+    top: 18%;
+    font-size: 20px;
+}
+
+.headerTitleLrg {
+    position: absolute;
+    top: 18%;
+    font-size: 110px;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.headerImg {
+    width: 100%;
+    height: 450px;
+    margin-top: 80px;
+    object-fit: cover;
+}

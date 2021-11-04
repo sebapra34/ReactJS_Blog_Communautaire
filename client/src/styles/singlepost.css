@@ -1,0 +1,144 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* 
+font-family: 'Architects Daughter', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Overpass', sans-serif;
+font-family: 'Andika New Basic', sans-serif;
+ */
+
+.singlePost {
+    flex: 9;
+}
+
+.singlePostImg {
+    width: 100%;
+    height: 450px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.singlePostWrapper {
+    padding: 20px;
+    padding-right: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.singlePostTitle {
+    text-align: center;
+    margin: 10px;
+    font-size: 28px;
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #333
+}
+
+.singlePostTitleInput {
+    margin: 10px;
+    font-family: Helvetica, sans-serif;
+    font-size: 28px;   
+    border: none;
+    border-bottom: 1px solid lightgray;
+    color: #666
+}
+
+.singlePostTitleInput:focus {
+    outline: none;
+}
+
+.singlePostEdit {
+    float: right;
+    font-size: 22px;
+}
+
+.SinglePostIcone {
+    margin-left: 10px;
+    cursor:pointer;
+}
+
+.SinglePostIcone:first-child {
+    color:rgb(172, 141, 101);
+
+}
+
+.SinglePostIcone:hover {
+    animation: tourne 0.8s linear;
+    animation-iteration-count: 1;
+}
+
+@keyframes tourne {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(-60deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(40deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.SinglePostIcone:last-child {
+    color:darkorange;
+}
+
+.singlePostInfo {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #aa7040;
+    font-weight: 500;
+    font-family: 'Andika New Basic', sans-serif;
+}
+
+.singlePostDesc{
+    color: #666;
+    font-size: 18px;
+    line-height: 25px;
+    font-family: 'Andika New Basic', sans-serif;
+}
+
+.singlePostDescInput{
+    border: none;
+    border-bottom: 1px solid lightgray;
+    color: #666;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.singlePostDescInput:focus {
+    outline: none;
+}
+
+.singlePostDesc::first-letter{
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.singlePostButton {
+    width: 100px;
+    border: none;
+    background-color: rgb(224, 209, 162);
+    color:#333;
+    font-weight: 600;
+    padding: 6px;
+    border-radius: 10px;
+    font-size: 14px; 
+    margin: 15px;
+    cursor: pointer;
+    align-self: flex-end;
+}

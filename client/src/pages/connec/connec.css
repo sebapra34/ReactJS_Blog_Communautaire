@@ -1,0 +1,60 @@
+.connec {
+    height: calc(100vh - 50px); /* - la topbar de 50px*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f1f1f1;
+    background: linear-gradient(
+        rgba(255,255,255,0.3),
+        rgba(255,255,255,0.3)
+        ),
+        url("https://zupimages.net/up/21/41/4m0g.jpg");
+    background-size: cover;
+}
+
+.loginTitle {
+    font-size: 50px;
+}
+
+.loginForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginForm > label {
+    margin: 10px 0;
+}
+
+.loginInput {
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.774);
+    border:none
+}
+
+.loginButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgb(172, 141, 101);
+    color: #f1f1f1;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+.loginButton:disabled{
+    cursor: not-allowed;
+    background-color:  rgba(172, 141, 101, 0.479);
+}
+
+.registerButton {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: darkorange;
+    color: #f1f1f1;
+    padding: 7px;
+    border-radius: 10px;
+}
